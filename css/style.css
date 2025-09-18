@@ -111,9 +111,11 @@ header#block-1 h1 {
 footer#block-7 {
   background-color: #CAD8EF;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   padding: 20px;
   border-radius: 10px;
+  justify-content: space-between;
 }
 
 footer#block-7 h2 {
@@ -121,26 +123,24 @@ footer#block-7 h2 {
   padding: 10px 20px;
   border-radius: 8px;
   display: inline-block;
-  margin-bottom: 15px;
-  align-self: flex-start;
+  margin: 0;
   max-width: 600px;
 }
 
 footer#block-7 ul {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
   margin: 0;
+  margin-left: auto;
+  text-align: right;
 }
 
-footer#block-7 li { margin: 0 10px; }
+footer#block-7 li { margin: 0; }
 
 footer#block-7 a {
   text-decoration: none;
-  color: #007bff;
-  font-weight: 500;
-  transition: color 0.3s;
+  color: inherit;
+  font-weight: normal;
 }
 
 footer#block-7 a:hover { color: #0056b3; }
